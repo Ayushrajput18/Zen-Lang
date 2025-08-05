@@ -80,7 +80,8 @@ map scores = {"Math": 95, "CS": 98}
 └── README.md           # Documentation
 
 ```
-🚀 Getting Started
+<h3>🚀 Getting Started</h3>
+
 1️⃣ Clone the Repository
 ```
 git clone https://github.com/Ayushrajput18/Zen-Lang.git
