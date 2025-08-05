@@ -222,7 +222,7 @@ Add this badge to your profile if you've contributed:
 ```
 ---
 <h3>📜 License</h3>
-Licensed under the MIT License.
+Licensed under the Apache-2.0 license
 <br>
 Free to use, modify, and distribute.
 <br>
