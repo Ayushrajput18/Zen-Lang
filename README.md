@@ -148,13 +148,13 @@ Zen-Lang is evolving quickly! Here's our progress:
 - [ ] Package manager support  
  
 
+---
 
-
-🤝 Contributing to Zen-Lang  
+<h3>🤝 Contributing to Zen-Lang  </h3>
 We ❤️ contributions! Whether it's fixing a bug, improving docs, or adding a new feature, all help is welcome.  
+---
 
-
-🔧 How to Contribute  
+<h3>🔧 How to Contribute  </h3>
 Fork the repository:  
 Click the "Fork" button at the top right of the repo page.
 
@@ -178,43 +178,53 @@ git push origin feature/amazing-feature
 ```
 Open a Pull Request (PR) on GitHub.
 
+<hr style="height: 3px; border: solid; background: #4CAF50;">
 
-🏆 Contribution Guidelines
+<h3>🏆 Contribution Guidelines</h3>
+
 Write clear commit messages (feat:, fix:, docs:).
-
+<br>
 Keep code modular and well-documented.
-
+<br>
 Run tests (if available) before submitting PRs.
-
+<br>
 Follow Zen-Lang’s coding style (readable, minimal).
+<br>
 
-📢 Ways to Contribute
-✅ Fix bugs or improve performance  
-✅ Suggest or add new language features  
-✅ Write or improve documentation  
-✅ Build example scripts or tutorials  
-✅ Test Zen-Lang on different OS/platforms  
+<h3>📢 Ways to Contribute</h3> 
 
-🌟 Recognition  
-Your name will appear in the Contributors list.  
-Top contributors may be added as collaborators!  
+✅ Fix bugs or improve performance
+<br>
+✅ Suggest or add new language features
+<br>
+✅ Write or improve documentation
+<br>
+✅ Build example scripts or tutorials
+<br>
+✅ Test Zen-Lang on different OS/platforms
+<br>
 
-🖊 Contributor Badge  
+<h3>🌟 Recognition</h3>
+
+Your name will appear in the Contributors list.
+<br>
+Top contributors may be added as collaborators!
+<br>
+<h3>🖊 Contributor Badge</h3>
+<br>
 Add this badge to your profile if you've contributed:  
 
 ```
 [![Contributor](https://img.shields.io/badge/Zen--Lang-Contributor-blue?style=for-the-badge)](https://github.com/Ayushrajput18/Zen-Lang)
 
 ```
-📜 License
+---
+<h3>📜 License</h3>
 Licensed under the MIT License.
+<br>
 Free to use, modify, and distribute.
+<br>
 
+---
+<h2>⭐ If you like Zen-Lang, give it a star on GitHub! </h2>
 
-⭐ If you like Zen-Lang, give it a star on GitHub!
-```
-
-✅ This keeps **your old syntax, unique data types, and headers**, but merges it with a **modern look (ASCII banner, badges, roadmap)**.
-
-Would you also like me to generate **a matching REPL welcome message** (so when you start Zen-Lang in terminal, it prints your ASCII logo)?
-```
