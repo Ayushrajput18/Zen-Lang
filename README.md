@@ -30,7 +30,7 @@ Built entirely in **C++** for speed, extensibility, and fun! 🎯
 
 ## 🔥 Example Syntax
 ```
-```plaintext
+
 #use <core>
 num a = 5
 dec pi = 3.14
@@ -41,19 +41,34 @@ map ages = {"Ayush": 21}
 print(a, pi, name, isOn, nums, ages)
 
 ```
-🧾 Data Types
-num → Integer (e.g., 5)
-dec → Decimal/float (e.g., 3.14)
-text → String (e.g., "Hello")
-flag → Boolean (e.g., true/false)
-pack → List/array (e.g., [1,2,3])
-map → Dictionary/map (e.g., {"key": value})
+## 🧾 Data Types
 
-``` plain text
+Zen-Lang introduces **simple, readable data types** that are easy to learn:
+
+| 🔑 Type  | 📝 Description          | 🖥️ Example             |
+|----------|------------------------|-----------------------|
+| 🔢 **`num`**  | Integer values         | `num a = 42`         |
+| 🔣 **`dec`**  | Decimal/float values   | `dec pi = 3.14`      |
+| 📝 **`text`** | String values          | `text name = "Zen"`  |
+| ✅ **`flag`** | Boolean (true/false)   | `flag isOn = true`   |
+| 📦 **`pack`** | List/array collection  | `pack nums = [1,2,3]`|
+| 🗺️ **`map`**  | Key-value dictionary   | `map ages = {"Ayush": 21}` |
+
+---
+
+### 💻 **Quick Example**
+```
+num a = 5
+dec pi = 3.14
+text name = "Ayush"
+flag isOn = false
+pack nums = [10, 20, 30]
+map scores = {"Math": 95, "CS": 98}
+
+
+``` 
 📂 Project Structure
-bash
-Copy
-Edit
+```
 ├── main.cpp            # Entry point
 ├── lexer.h / lexer.cpp  # Tokenizer
 ├── parser.h / parser.cpp# AST builder
@@ -82,24 +97,115 @@ Or start the interactive REPL:
 ./zen
 >>> print("Hello Zen!")
 ```
+## 🛠 Roadmap (Planned Features)
 
-🛠 Roadmap (Planned Features)
+Zen-Lang is evolving quickly! Here's our progress:
 
- Functions & scoping
- Lists and dictionaries enhancements
- Import system for modules
- Standard library (math, file I/O, etc.)
- REPL with auto-completion
+### ✅ Core Language Features ![Progress](https://img.shields.io/badge/Progress-60%25-brightgreen?style=for-the-badge)
+▓▓▓▓▓▓▓▓░░░░░░ (6/10)
+- [x] Variables and assignments  
+- [x] Loops (`for`, `while`)  
+- [x] Conditionals (`if/else`)  
+- [x] Built-in `print()` function  
+- [ ] Functions & Scoping  
+- [ ] Error handling system  
+
+---
+
+### 📦 Data Structures ![Progress](https://img.shields.io/badge/Progress-50%25-yellow?style=for-the-badge)
+▓▓▓▓▓░░░░░░░░░ (2/4)
+- [x] `pack` (lists/arrays)  
+- [x] `map` (dictionaries)  
+- [ ] Nested collections support  
+- [ ] Iterators & advanced looping  
+
+---
+
+### 📚 Standard Library ![Progress](https://img.shields.io/badge/Progress-20%25-orange?style=for-the-badge)
+▓░░░░░░░░░░░░░ (1/5)
+- [ ] Math module (`sin`, `sqrt`, etc.)  
+- [ ] File I/O (`read`, `write`)  
+- [ ] String utilities (`split`, `join`)  
+- [ ] Date/Time functions  
+- [ ] Basic CLI tools  
+
+---
+
+### 🖥 Development Tools ![Progress](https://img.shields.io/badge/Progress-30%25-yellowgreen?style=for-the-badge)
+▓▓░░░░░░░░░░░░ (1/4)
+- [x] Basic REPL  
+- [ ] REPL auto-completion/history  
+- [ ] Syntax highlighting for IDEs  
+- [ ] Module import system  
+
+---
+
+### 🌐 Community & Ecosystem ![Progress](https://img.shields.io/badge/Progress-10%25-red?style=for-the-badge)
+░░░░░░░░░░░░░░ (0/4)
+- [ ] Contributor's guide & documentation  
+- [ ] Example projects & demos  
+- [ ] CI/CD testing suite  
+- [ ] Package manager support  
+ 
 
 
-🤝 Contributing
 
-Want to improve Zen-Lang? Contributions are welcome:
-Fork the repo
-Create a branch (feature-xyz)
-Commit your changes
-Open a Pull Reques
+🤝 Contributing to Zen-Lang  
+We ❤️ contributions! Whether it's fixing a bug, improving docs, or adding a new feature, all help is welcome.  
 
+
+🔧 How to Contribute  
+Fork the repository:  
+Click the "Fork" button at the top right of the repo page.
+
+Clone your fork:
+```
+git clone https://github.com/your-username/Zen-Lang.git
+cd Zen-Lang
+```
+Create a branch for your feature or fix:
+```
+git checkout -b feature/amazing-feature
+```
+Make your changes & commit:
+```
+git add .
+git commit -m "Added amazing feature 🎉"
+```
+Push to your fork:
+```
+git push origin feature/amazing-feature
+```
+Open a Pull Request (PR) on GitHub.
+
+
+🏆 Contribution Guidelines
+Write clear commit messages (feat:, fix:, docs:).
+
+Keep code modular and well-documented.
+
+Run tests (if available) before submitting PRs.
+
+Follow Zen-Lang’s coding style (readable, minimal).
+
+📢 Ways to Contribute
+✅ Fix bugs or improve performance  
+✅ Suggest or add new language features  
+✅ Write or improve documentation  
+✅ Build example scripts or tutorials  
+✅ Test Zen-Lang on different OS/platforms  
+
+🌟 Recognition  
+Your name will appear in the Contributors list.  
+Top contributors may be added as collaborators!  
+
+🖊 Contributor Badge  
+Add this badge to your profile if you've contributed:  
+
+```
+[![Contributor](https://img.shields.io/badge/Zen--Lang-Contributor-blue?style=for-the-badge)](https://github.com/Ayushrajput18/Zen-Lang)
+
+```
 📜 License
 Licensed under the MIT License.
 Free to use, modify, and distribute.
